@@ -5,6 +5,8 @@ Yet another type-safed wrapper of [`UserDefaults`](https://developer.apple.com/d
 
 ## Example
 ```swift
+import UDPropertyWrapper
+
 struct UserDefaultsStore {
   @UserDefault("age", defaultValue: 0)
   var age: Int
