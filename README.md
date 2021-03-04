@@ -1,5 +1,9 @@
 # UDPropertyWrapper
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+[![Version](https://img.shields.io/cocoapods/v/UDPropertyWrapper.svg?style=flat)](http://cocoapods.org/pods/UDPropertyWrapper)
+[![License](https://img.shields.io/cocoapods/l/UDPropertyWrapper.svg?style=flat)](http://cocoapods.org/pods/UDPropertyWrapper)
+[![Platform](https://img.shields.io/cocoapods/p/UDPropertyWrapper.svg?style=flat)](http://cocoapods.org/pods/UDPropertyWrapper)
+
 
 Yet another type-safed wrapper of [`UserDefaults`](https://developer.apple.com/documentation/foundation/userdefaults)
 
