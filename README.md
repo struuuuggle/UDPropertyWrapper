@@ -62,6 +62,11 @@ var countryCode: Int?
 - Xcode12.0+
 
 ## Installations
+### CocoaPods
+```ruby
+pod 'UDWrapper'
+````
+
 ### Swift Package Manager
 - Select File > Swift Packages > Add Package Dependency....
 - Enter https://github.com/struuuuggle/UDWrapper in the "Choose Package Repository" dialog.
