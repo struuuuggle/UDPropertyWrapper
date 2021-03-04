@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "UDPropertyWrapper"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Yet another type-safed wrapper of UserDefaults implemented with property wrappers"
   spec.homepage     = "https://github.com/struuuuggle/UDPropertyWrapper"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
