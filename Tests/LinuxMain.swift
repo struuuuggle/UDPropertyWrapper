@@ -1,7 +1,7 @@
 import XCTest
 
-import UDWrapperTests
+import UDPropertyWrapperTests
 
 var tests = [XCTestCaseEntry]()
-tests += UDWrapperTests.allTests()
+tests += UDPropertyWrapperTests.allTests()
 XCTMain(tests)

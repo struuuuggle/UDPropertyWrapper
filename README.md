@@ -1,4 +1,4 @@
-# UDWrapper
+# UDPropertyWrapper
 [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 Yet another type-safed wrapper of [`UserDefaults`](https://developer.apple.com/documentation/foundation/userdefaults)
@@ -15,7 +15,7 @@ struct UserDefaultsStore {
 }
 ```
 
-Since  `UDWrapper` is type-safed, you cannot assign a value to `defaultValue` ignoring the type associted to the property.
+Since  `UDPropertyWrapper` is type-safed, you cannot assign a value to `defaultValue` ignoring the type associted to the property.
 ```swift
 // ⛔️ Cannot convert value of type 'String' to expected argument type 'Int'
 @UserDefault("age", defaultValue: "")
@@ -64,10 +64,10 @@ var countryCode: Int?
 ## Installations
 ### CocoaPods
 ```ruby
-pod 'UDWrapper'
+pod 'UDPropertyWrapper'
 ````
 
 ### Swift Package Manager
 - Select File > Swift Packages > Add Package Dependency....
-- Enter https://github.com/struuuuggle/UDWrapper in the "Choose Package Repository" dialog.
+- Enter https://github.com/struuuuggle/UDPropertyWrapper in the "Choose Package Repository" dialog.
 - Specify a rule as Branch, and set the branch field to `main`.

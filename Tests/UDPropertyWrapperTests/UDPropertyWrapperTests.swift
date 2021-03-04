@@ -1,7 +1,7 @@
 import XCTest
-@testable import UDWrapper
+@testable import UDPropertyWrapper
 
-final class UDWrapperTests: XCTestCase {
+final class UDPropertyWrapperTests: XCTestCase {
 
   enum Keys: String, CaseIterable {
     case userId, city, countryCode, foreignCity
@@ -82,13 +82,13 @@ final class UDWrapperTests: XCTestCase {
 }
 
 extension UserDefault where T: Codable {
-  init(_ key: UDWrapperTests.Keys, defaultValue: T) {
+  init(_ key: UDPropertyWrapperTests.Keys, defaultValue: T) {
     self.init(key.rawValue, defaultValue: defaultValue)
   }
 }
 
 extension UserDefault where T: ExpressibleByNilLiteral {
-  init(_ key: UDWrapperTests.Keys) {
+  init(_ key: UDPropertyWrapperTests.Keys) {
     self.init(key.rawValue, defaultValue: nil)
   }
 }
